@@ -1,0 +1,36 @@
+* { box-sizing:border-box; }
+body { margin:0; font-family:system-ui,sans-serif; line-height:1.55; background:#f3f7fb; color:#203040; }
+main { max-width:760px; margin:2rem auto; padding:1.3rem; background:#fff; border-radius:14px; }
+a { color:#0b6178; }
+.estanque {
+  display: flex;
+  justify-content: flex-end; /* A ra vai á dereita */
+  align-items: center;       /* A ra queda centrada verticalmente */
+  position: relative;
+  min-height: 230px;
+  background: #80c9da;
+  border:8px solid #4f9caf;
+  border-radius:20px;
+  padding:20px;
+  overflow:hidden;
+}
+.nenufar {
+  position:absolute; /* Só para debuxar un obxectivo fixo no estanque */
+  right:20px;
+  top:50%;
+  transform:translateY(-50%);
+  width:66px;
+  height:66px;
+  border-radius:50%;
+  background:#69ac53;
+  box-shadow:inset -7px -6px #478f3c;
+}
+.ra {
+  position:relative;
+  z-index:1;
+  width:66px;
+  text-align:center;
+  font-size:40px;
+  line-height:66px;
+}
+pre { overflow:auto; background:#edf3f7; padding:1.1rem; border-radius:8px; }

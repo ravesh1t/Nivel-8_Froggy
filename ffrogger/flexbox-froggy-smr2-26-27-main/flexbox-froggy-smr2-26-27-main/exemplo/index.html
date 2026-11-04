@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="gl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Exemplo: mover a ra á dereita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <a href="../index.html">← Volver á portada</a>
+    <h1>Exemplo: mover a ra á dereita</h1>
+    <p><strong>Obxectivo:</strong> colocar a ra sobre o nenúfar situado á dereita do estanque.</p>
+    <div class="estanque" aria-label="Ra colocada á dereita sobre un nenúfar">
+      <div class="nenufar" aria-hidden="true"></div>
+      <span class="ra" role="img" aria-label="Ra">🐸</span>
+    </div>
+    <h2>Solución</h2>
+    <pre><code>.estanque {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}</code></pre>
+    <p><code>display: flex</code> activa Flexbox. Como a dirección por defecto é horizontal, <code>justify-content: flex-end</code> move a ra ao extremo dereito do eixe principal. <code>align-items: center</code> céntraa verticalmente.</p>
+    <p><em>O nenúfar é só un elemento decorativo. A posición da ra conséguese con Flexbox, non con posición absoluta.</em></p>
+  </main>
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+        p {color: cadetblue; font-size: 12pt;}
+        h1 {color: burlywood; font-size: 43pt;}
+        h2 {color: salmon;}
+        ol {color: cornflowerblue;}
+
+         .cajas {
+                display: flex;
+                background-color: #1f5f5b;
+                padding: 20px;
+                border-radius: 10px;
+                width: 100%;
+                max-width: 600px;
+                height: 120px;
+                align-items: center;
+                 
+         }
+                .caja1 {background-color:green; font-size: 50pt; color: white; border: 8px solid black}
+                .caja2 {background-color:red; font-size: 50pt; color: white; border: 8px solid blue}
+                .caja3 {background-color:blue; font-size: 50pt; color: white; border: 8px solid red}
+        

@@ -1,0 +1,18 @@
+/* TODO: adapta este punto de partida ao teu nivel. */
+* { box-sizing: border-box; }
+body { margin:0; font-family:system-ui,sans-serif; line-height:1.5; background:#f3f7fb; color:#203040; }
+main { max-width:760px; margin:2rem auto; padding:1.3rem; border-radius:14px; background:white; }
+a { color:#0b6178; }
+.estanque {
+  display:flex;
+  /* TODO: engade aquí as propiedades de Flexbox para resolver o nivel. */
+  align-items:center;
+  position:relative;
+  min-height:230px;
+  padding:20px;
+  border:8px solid #4f9caf;
+  border-radius:20px;
+  background:#80c9da;
+}
+.nenufar { position:absolute; right:20px; top:50%; transform:translateY(-50%); width:66px; height:66px; border-radius:50%; background:#69ac53; }
+.ra { position:relative; z-index:1; width:66px; text-align:center; font-size:40px; line-height:66px; }
